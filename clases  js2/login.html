@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex justify-content-center align-items-center alto-100">
+                    
+
+                    <form class="w-50 shadow p-5 mb-5 bg-body rounded animate__animated animate__flipInx   animate__rubberBand
+                    " id="formInciciarSesion">
+                        <div class="text-center">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp"
+                              style="width: 185px;" alt="logo">
+                            <h4 class="mt-1 mb-5 pb-1">Inicio de Sesion</h4>
+                          </div>
+                        <!-- <h2 class="tex-center m-5">Iniciar Sesion</h2> -->
+                        <div class="mb-3">
+                            <label class="form-label">Correo</label>
+                            <input type="email" class="form-control" id="emailInicio" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" class="form-control" id="passwordInicio" required>
+                        </div>
+                        <div class="mb-3" id="divAlertInicio"></div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary" >Iniciar sesion</button>
+                            <br><br>
+                            <a class="lik-primary curso-pointer" id="cambioAregistro">No tiene cueta <br>Registrate</a> 
+                            
+                        </div>
+                    </form>
+
+                    <form class="w-50 shadow p-5 mb-5 bg-body rounded animate__animated animate__flipInx   animate__flipInX d-none
+                    " id="formRegistrarse">
+
+                        <h2 class="tex-center m-5">Registrate</h2>
+
+                        <div class="mb-3">
+                            <label class="form-label">Correo121</label>
+                            <input type="email" class="form-control" id="emaiRegistro" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" class="form-control" id="passwordRegistro" required>
+                        </div>
+                        <div class="mb-3" id="divAlerRegistro"></div>
+                        <div class="mb-3" id="prueba"></div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary" >Registrate</button>
+                            <br><br>
+                            <a class="lik-primary curso-pointer" id="cambioAinicioSecion">Ya tiene cuenta <br>Inicio secion</a> 
+                        </div>
+                        
+                    </form>
+
+
+
+                    
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+        
+    </div>
+    
+    
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="mainn.js"></script>
+</html>
